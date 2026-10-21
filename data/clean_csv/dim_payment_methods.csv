@@ -1,0 +1,7 @@
+payment_method_id,method_name,gateway,processing_fee_pct
+1,UPI,Razorpay,0.0
+2,NetBanking,Razorpay,1.5
+3,Wallet,Paytm,1.0
+4,Credit Card,Stripe,2.0
+5,Debit Card,Stripe,1.0
+6,UPI,CashFree,0.0

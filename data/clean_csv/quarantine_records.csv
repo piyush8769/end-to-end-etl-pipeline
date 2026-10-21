@@ -1,0 +1,4 @@
+order_id,rejection_reason,raw_payload_snippet
+ORD-CORRUPT-001,Missing mandatory field: customer,"{""order_id"": ""ORD-CORRUPT-001"", ""total_amount"": 1299.00}"
+ORD-CORRUPT-002,Negative transaction total: total_amount <= 0,"{""order_id"": ""ORD-CORRUPT-002"", ""total_amount"": -450.00}"
+ORD-CORRUPT-003,Missing mandatory field: order_items,"{""order_id"": ""ORD-CORRUPT-003"", ""total_amount"": 890.00}"

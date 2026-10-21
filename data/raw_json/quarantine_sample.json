@@ -1,0 +1,20 @@
+[
+  {
+    "order_id": "ORD-CORRUPT-001",
+    "order_timestamp": "invalid_date",
+    "total_amount": -500.0,
+    "order_status": "ERROR"
+  },
+  {
+    "order_id": "ORD-CORRUPT-002",
+    "order_timestamp": "2024-03-31T23:59:59Z",
+    "customer": null,
+    "total_amount": 1200.0
+  },
+  {
+    "order_id": "ORD-CORRUPT-003",
+    "order_timestamp": "2024-03-31T23:59:59Z",
+    "order_items": [],
+    "total_amount": 0.0
+  }
+]

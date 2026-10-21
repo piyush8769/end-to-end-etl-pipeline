@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables and Credentials
+.env
+*.pem
+*.key
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Raw Ingestion JSON Partitions (Track sample files only)
+data/raw_json/batch_*.json
+
+# Data clean staging large fact CSVs
+data/clean_csv/fact_orders.csv
+data/clean_csv/fact_order_items.csv
+
+# Keep directory structure tracked
+!data/raw_json/quarantine_sample.json
+!data/clean_csv/dim_customers.csv
+!data/clean_csv/dim_products.csv
+!data/clean_csv/dim_payment_methods.csv
+!data/clean_csv/quarantine_records.csv
